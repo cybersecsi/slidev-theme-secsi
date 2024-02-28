@@ -30,16 +30,11 @@ theme: <b>secsi</b>
 Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 ## Layouts
+This theme provides the following layouts: 
+- image-left-header: an image on the left with content on the right
+- image-right-header: an image on the right with content on the left.
+- two-cols-content: vue 
 
-This theme provides the following layouts:
-
-> TODO:
-
-## Components
-
-This theme provides the following components:
-
-> TODO:
 
 ## Contributing
 
