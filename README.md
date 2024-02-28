@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-secsi?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-secsi)
 
-A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
+The SecSI theme for [Slidev](https://github.com/slidevjs/slidev).
 
 <!--
   Learn more about how to write a theme:
