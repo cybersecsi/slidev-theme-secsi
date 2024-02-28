@@ -1,0 +1,64 @@
+:root {
+  /* default theme color */
+  /* can be overrided by uses `themeConfig` option */
+  --slidev-theme-primary: #5d8392;
+}
+
+.slidev-layout {
+  background: radial-gradient(circle, #001F3F, #00051E);
+
+  @apply text-center div {
+    @apply m-0 p-0;
+  }
+}
+
+.slidev-layout-left {
+  @apply text-left;
+  p {
+    @apply mt-10;
+
+  }
+  h1 {
+    @apply text-center;
+  }
+
+
+}
+
+ul {
+  @apply text-left;
+}
+
+.outline ul {
+  @apply px-20 pt-20 text-2xl;
+
+  li {
+    @apply: list-none;
+  }
+
+  li::before {
+    @apply: list-none;
+    content: "-";
+    @apply mx-10;
+  }
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro {
+  @apply h-full grid;
+
+  h1 {
+    @apply text-5xl text-center;
+  }
+
+  h1+p {
+    @apply mt-5 text-center px-10;
+    /* @apply -mt-2 opacity-50 mb-4; */
+  }
+
+  p+h2,
+  ul+h2,
+  table+h2 {
+    @apply mt-10;
+  }
+}
